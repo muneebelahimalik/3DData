@@ -92,8 +92,8 @@ def organize_data(main_directory, output_directory, fps=15, interval=1):
     print("✅ Data extraction and organization complete!")
 
 # Example usage
-main_directory = "C:\ZED\DataCollection\Vidalia\Session_20250221_143736"  # Change this to your dataset path
-output_directory = "M:\Research\Data\Weeds\Vidalia_visit1\Datasample9"  # Change to the desired output path
+main_directory = r"C:\ZED\DataCollection\Vidalia\Session_20250226_205001"  # Example path
+output_directory = r"M:\Research\Data\Weeds\Extra_testing\testing2"                # Example output
 fps = 15  # Default FPS of your camera
 interval = 1  # Extract 1 frame per second
 
