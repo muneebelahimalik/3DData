@@ -107,9 +107,9 @@ def organize_data(main_directory, output_directory, fps=15, interval=1):
 
 # Example usage
 if __name__ == "__main__":
-    main_directory = r"C:\ZED\DataCollection\Vidalia\Session_20250226_202127"  # Example path
-    output_directory = r"M:\Research\Data\Weeds\Extra_testing"                # Example output
+    main_directory = r"C:\ZED\DataCollection\Vidalia2\Session_20250304_104505"  # Example path
+    output_directory = r"M:\Research\Data\Weeds\Vidalia2\02"                # Example output
     fps = 15       # For reference, original camera FPS
-    interval = 1   # Extract 1 frame every 1 second
+    interval = 0.4348   # Extract 1 frame every 0.4348 seconds = 2.3 FPS
 
     organize_data(main_directory, output_directory, fps, interval)
